@@ -168,7 +168,7 @@ Symbol.bindElementAction(compId,symbolName,"${Rectangle48}","click",function(sym
 //=========================================================
 
 //Edge symbol: 'contenedorvideo'
-(function(symbolName){Symbol.bindSymbolAction(compId,symbolName,"creationComplete",function(sym,e){var visorvideo=sym.$("video");var reproductor='<iframe width="1080" height="960" src="https://www.youtube.com/embed/7E1qLh03POo?rel=0&amp;controls=0&amp;showinfo=0?rel=0&autoplay=1&loop=1&playlist=7E1qLh03POo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>';visorvideo.html(reproductor)});
+(function(symbolName){Symbol.bindSymbolAction(compId,symbolName,"creationComplete",function(sym,e){var visorvideo=sym.$("video");var reproductor='<iframe width="1080" height="960" src="https://www.youtube.com/embed/7E1qLh03POo?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1&loop=1&playlist=7E1qLh03POo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>';visorvideo.html(reproductor)});
 //Edge binding end
 })("contenedorvideo");
 //Edge symbol end:'contenedorvideo'
